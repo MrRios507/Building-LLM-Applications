@@ -1,13 +1,17 @@
 # Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+**/__pycache__/
+**/*.py[oc]
+**/build/
+**/dist/
+**/wheels/
+**/*.egg-info
 
 # Virtual environments
-.venv
+**/.venv/
 
-# Jupyter
-.ipynb_checkpoints/
+# Jupyter Notebooks checkpoints
+**/.ipynb_checkpoints/
+
+# Archivos de entorno y credenciales (Muy importante para proyectos de LLMs)
+.env
+**/.env
